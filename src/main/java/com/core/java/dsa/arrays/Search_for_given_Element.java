@@ -23,3 +23,8 @@ public class Search_for_given_Element {
             System.out.println("Element Found at Index : " + index);
     }
 }
+
+/**
+ *  Time Complexity O(N)
+ *  Space Complexity O(N)
+ */
