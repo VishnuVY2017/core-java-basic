@@ -96,8 +96,18 @@ public class ArrayDesign {
                 return true;
             }
         }
-
         return false;
+    }
+
+    public void update(int index, int element){
+        arr[index] = element;
+    }
+
+    public void clear(){
+        for(int i = 0; i<size; i++){
+            arr[i] = 0;
+        }
+        this.size=0;
     }
 
 
@@ -164,6 +174,23 @@ public class ArrayDesign {
         System.out.println(array.toString());
         array.removeElement(140);
         System.out.println(array.toString());
+        System.out.println("size : " + array.size());
+        System.out.println("isEmpty : " + array.isEmpty());
+        System.out.println("capacity : " + array.capacity());
+
+        System.out.println("==============================");
+        System.out.println(array.toString());
+        array.update(3, 111);
+        System.out.println(array.toString());
+        System.out.println("size : " + array.size());
+        System.out.println("isEmpty : " + array.isEmpty());
+        System.out.println("capacity : " + array.capacity());
+
+        System.out.println("==============================");
+        System.out.println(array.toString());
+        array.clear();
+        System.out.println(array.toString());
+        System.out.println(Arrays.toString(array.arr));
         System.out.println("size : " + array.size());
         System.out.println("isEmpty : " + array.isEmpty());
         System.out.println("capacity : " + array.capacity());
