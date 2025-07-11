@@ -1,9 +1,8 @@
-package com.core.java.dsa.arrays;
+package com.core.java.dsa.arrays.leetcode;
 
 import java.util.Arrays;
-
 // 217. Contains Duplicate
-public class LeetCode_217_C {
+public class LeetCode_217_B {
 
     public static boolean containsDuplicate(int[] arr) {
 

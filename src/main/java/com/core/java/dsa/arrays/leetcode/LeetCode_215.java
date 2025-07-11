@@ -1,4 +1,4 @@
-package com.core.java.dsa.arrays;
+package com.core.java.dsa.arrays.leetcode;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;
