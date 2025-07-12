@@ -1,6 +1,6 @@
 package com.core.java.java8.methodref.example_1;
 
-public class Demo1 {
+public class Demo {
     public static void main(String[] args) {
         Hello hello1 = (a, b) -> {
             int sum = a + b;

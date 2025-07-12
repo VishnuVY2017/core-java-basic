@@ -2,7 +2,7 @@ package com.core.java.java8.byFunction;
 
 import java.util.function.BiFunction;
 
-public class Demo13 {
+public class Demo {
     /*
     BiFunction Functional Interface
         o Takes Two Input Parameters

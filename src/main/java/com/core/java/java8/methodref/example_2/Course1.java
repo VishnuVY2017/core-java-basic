@@ -1,16 +1,16 @@
 package com.core.java.java8.methodref.example_2;
 
-public class Course {
+public class Course1 {
     private int courseId;
     private String courseName;
     private String duration;
     private String trainer;
 
-    public Course() {
+    public Course1() {
         System.out.println("Course - 0 arg Con");
     }
 
-    public Course(int courseId, String courseName, String duration, String trainer) {
+    public Course1(int courseId, String courseName, String duration, String trainer) {
         System.out.println("Course - 4 arg Con");
         this.courseId = courseId;
         this.courseName = courseName;

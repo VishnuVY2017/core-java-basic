@@ -3,7 +3,7 @@ package com.core.java.java8.consumer;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
-public class Demo15 {
+public class Demo {
     // Consumer and BiConsumer Interfaces
     /*
      Consumer Functional Interface

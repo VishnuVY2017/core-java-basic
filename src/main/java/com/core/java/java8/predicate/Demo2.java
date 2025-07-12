@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-public class Demo4 {
+public class Demo2 {
     public static void main(String[] args) {
         Predicate<Integer> predicate1 = (num) -> {
             System.out.println(num);

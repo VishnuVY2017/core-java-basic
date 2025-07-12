@@ -2,7 +2,7 @@ package com.core.java.java8.predicate;
 
 import java.util.function.Predicate;
 
-public class Demo6 {
+public class Demo3 {
     public static void main(String[] args) {
         Predicate<String> predicate1 = Predicate.isEqual("Hello Guys");
         boolean mybool = predicate1.test("Hello Guys");

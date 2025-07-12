@@ -2,7 +2,7 @@ package com.core.java.java8.functions;
 
 import java.util.function.Function;
 
-public class Demo9 {
+public class Demo {
     public static void main(String[] args) {
         Function<String, String> fun1 = (input) -> input.toUpperCase();
         String output1 = fun1.apply("Vishnu Sharma");
